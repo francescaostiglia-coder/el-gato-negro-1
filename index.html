@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Exitoso</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+<header>
+
+    <div class="menu-container">
+
+       <div class="menu" onclick="toggleMenu()">
+    ☰
+</div>
+
+        <div class="menu-desplegable">
+
+            <a href="index.html">Inicio</a>
+
+            <a href="menu.html">Menú</a>
+
+            <a href="historia.html">Historia</a>
+
+            <a href="visitanos.html">Visítanos</a>
+
+            <a href="reservas.html">Reservas</a>
+
+            <a href="registro.html">Comunidad</a>
+
+        </div>
+
+    </div>
+
+    <img src="img/logo.jpg" alt="Logo">
+
+</header>
+
+<main>
+
+   <section class="hero">
+
+    <div class="hero-overlay">
+
+        <h1>Un Café con Historia</h1>
+
+        <p>
+            Tradición, aromas y sabores que forman parte de Buenos Aires desde 1927.
+        </p>
+
+        <div class="hero-botones">
+
+            <a href="reservas.html" class="btn-reserva">
+                Reservar Ahora
+            </a>
+
+            <a href="registro.html" class="btn-home-comunidad">
+                Comunidad Gato Negro
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="bienvenidos">
+
+    <div class="estrella">✦</div>
+
+    <div class="contenido-bienvenidos">
+
+        <div class="texto-bienvenidos">
+
+            <h2>Bienvenidos</h2>
+
+            <p>
+                Desde 1927 el lugar donde se cruzan una experiencia única en Buenos Aires.
+                Café, té y especias de todo el mundo en un lugar lleno de historia.
+            </p>
+            <div class="estadisticas-bienvenidos">
+
+    <div class="dato-mini">
+        <h3>95+</h3>
+        <p>Años</p>
+    </div>
+
+    <div class="dato-mini">
+        <h3>50+</h3>
+        <p>Variedades</p>
+    </div>
+
+    <div class="dato-mini">
+        <h3>1000+</h3>
+        <p>Clientes</p>
+    </div>
+
+</div>
+
+        </div>
+
+        <div class="imagen-bienvenidos">
+            <img src="img/img.png" alt="Ilustración">
+        </div>
+
+    </div>
+
+
+</section>
+
+<section class="experiencia">
+
+    <h2>¿Por qué elegir Café Gato Negro?</h2>
+
+    <div class="cards-experiencia">
+
+        <div class="card-exp">
+
+            <div class="icono-exp">☕</div>
+
+            <h3>Café Premium</h3>
+
+            <p>
+                Selección de cafés de alta calidad con aromas y sabores únicos.
+            </p>
+
+        </div>
+
+        <div class="card-exp">
+
+            <div class="icono-exp">🌿</div>
+
+            <h3>Tés y Especias</h3>
+
+            <p>
+                Más de 50 variedades provenientes de distintos lugares del mundo.
+            </p>
+
+        </div>
+
+        <div class="card-exp">
+
+            <div class="icono-exp">🏛️</div>
+
+            <h3>Tradición</h3>
+
+            <p>
+                Más de 95 años siendo un referente histórico de Buenos Aires.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="foto-home">
+
+    <img src="img/locals.jpg" alt="Café Gato Negro">
+
+</section>
+<section class="explora">
+
+    <div class="icono-cafe">☕</div>
+   
+
+    <h2>Explora</h2>
+
+    <div class="opciones">
+
+    <a href="menu.html" class="opcion">
+        <div class="circulo">📖</div>
+        <p>Menú</p>
+    </a>
+
+    <a href="historia.html" class="opcion">
+        <div class="circulo">🏛️</div>
+        <p>Historia</p>
+    </a>
+
+    <a href="visitanos.html" class="opcion">
+        <div class="circulo">📍</div>
+        <p>Visítanos</p>
+    </a>
+
+</div>
+
+        
+       
+
+    </div>
+
+</section>
+
+</main>
+
+<script>
+
+function toggleMenu(){
+
+    const menu =
+        document.querySelector(".menu-desplegable");
+
+    if(menu.style.display === "block"){
+
+        menu.style.display = "none";
+
+    }else{
+
+        menu.style.display = "block";
+
+    }
+
+}
+
+</script>
+<footer>
+
+    <h3>Café Gato Negro</h3>
+
+    <p>
+        Desde 1927 compartiendo tradición, aromas y sabores en Buenos Aires.
+    </p>
+
+    <p>
+        Av. Corrientes 1669 • Buenos Aires
+    </p>
+
+</footer>
+
+</body>
+
+</html>

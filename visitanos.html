@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Exitoso</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<header>
+
+    <div class="menu-container">
+
+        <div class="menu" onclick="toggleMenu()">
+    ☰
+</div>
+
+        <div class="menu-desplegable">
+
+            <a href="index.html">Inicio</a>
+
+            <a href="menu.html">Menú</a>
+
+            <a href="historia.html">Historia</a>
+
+            <a href="visitanos.html">Visítanos</a>
+
+            <a href="reservas.html">Reservas</a>
+
+            <a href="registro.html">Comunidad</a>
+
+        </div>
+
+    </div>
+
+    <img src="img/logo.jpg" alt="Logo">
+
+</header>
+
+<section class="hero-visitanos">
+
+    <h1>Visítanos</h1>
+
+    <p>
+        Te esperamos para compartir una experiencia única en Café Gato Negro.
+    </p>
+
+</section>
+
+<section class="info-visitanos">
+
+    <img src="img/local.jpg"
+         alt="Local Café Gato Negro">
+
+    <div class="datos-grid">
+
+        <div class="dato-card">
+
+            <h3>📍 Ubicación</h3>
+
+            <p>
+                Av. Corrientes 1669<br>
+                Ciudad Autónoma de Buenos Aires
+            </p>
+
+        </div>
+
+        <div class="dato-card">
+
+            <h3>🕒 Horarios</h3>
+
+            <p>
+                Lun-Vie: 9:00 a 19:00<br>
+                Sáb: 9:00 a 18:00<br>
+                Dom: 10:00 a 17:00
+            </p>
+
+        </div>
+
+        <div class="dato-card">
+
+            <h3>☎ Contacto</h3>
+
+            <p>
+                (011) 4315-1299
+            </p>
+
+        </div>
+
+        <div class="dato-card boton-card">
+
+            <a href="https://www.google.com/maps/place/el+gato+negro+cafe/"
+               target="_blank"
+               class="btn-ubicacion">
+
+                📍 Ver ubicación
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="frase-visitanos">
+
+    <p>
+        "Más de 95 años compartiendo tradición, aromas y sabores en Buenos Aires."
+    </p>
+
+</section>
+
+<div class="text-center mb-5">
+
+    <a href="index.html" class="btn-volver">
+        Volver al Inicio
+    </a>
+
+</div>
+<footer>
+
+    <h3>Café Gato Negro</h3>
+
+    <p>
+        Desde 1927 compartiendo tradición, aromas y sabores en Buenos Aires.
+    </p>
+
+    <p>
+        Av. Corrientes 1669 • Buenos Aires
+    </p>
+
+</footer>
+<script>
+
+function toggleMenu(){
+
+    const menu =
+        document.querySelector(".menu-desplegable");
+
+    if(menu.style.display === "block"){
+
+        menu.style.display = "none";
+
+    }else{
+
+        menu.style.display = "block";
+
+    }
+
+}
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

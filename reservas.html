@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Reservas | Café Gato Negro</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="menu-container">
+
+        <div class="menu" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <div class="menu-desplegable">
+
+            <a href="index.html">Inicio</a>
+            <a href="menu.html">Menú</a>
+            <a href="historia.html">Historia</a>
+            <a href="visitanos.html">Visítanos</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="registro.html">Comunidad</a>
+
+        </div>
+
+    </div>
+
+    <img src="img/logo.jpg" alt="Logo">
+
+</header>
+
+<section class="hero-reservas">
+
+    <h1>Reservá tu mesa</h1>
+
+    <p>
+        Viví la experiencia única de Café Gato Negro en el corazón de Buenos Aires.
+    </p>
+
+</section>
+
+<section class="contenedor-reserva">
+
+    <div class="card-reserva">
+
+        <h2>Realizar Reserva</h2>
+
+        <form action="confirmacion.html">
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <label class="form-label">
+                        Fecha
+                    </label>
+
+                    <input type="date"
+                           class="form-control"
+                           required>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <label class="form-label">
+                        Hora
+                    </label>
+
+                    <select class="form-select">
+
+                        <option>09:00</option>
+                        <option>10:00</option>
+                        <option>11:00</option>
+                        <option>12:00</option>
+                        <option>13:00</option>
+                        <option>14:00</option>
+                        <option>15:00</option>
+                        <option>16:00</option>
+                        <option>17:00</option>
+
+                    </select>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <label class="form-label">
+                        Personas
+                    </label>
+
+                    <select class="form-select">
+
+                        <option>1 Persona</option>
+                        <option>2 Personas</option>
+                        <option>3 Personas</option>
+                        <option>4 Personas</option>
+                        <option>5 Personas</option>
+                        <option>6 Personas</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <button type="submit"
+                    class="btn-confirmar">
+
+                Confirmar Reserva
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<section class="beneficios-reserva">
+
+    <div class="beneficio">
+        ✅ Confirmación inmediata
+    </div>
+
+    <div class="beneficio">
+        ⏱ Duración estimada: 2 horas
+    </div>
+
+    <div class="beneficio">
+        🚶 Llegar 10 minutos antes
+    </div>
+
+    <div class="beneficio">
+        ☕ Atención personalizada
+    </div>
+
+</section>
+
+<div class="text-center">
+
+    <a href="index.html"
+       class="btn-volver">
+
+        Volver al Inicio
+
+    </a>
+
+</div>
+
+<footer>
+
+    <h3>Café Gato Negro</h3>
+
+    <p>
+        Desde 1927 compartiendo tradición, aromas y sabores.
+    </p>
+
+</footer>
+
+<script>
+
+function toggleMenu(){
+
+const menu = document.querySelector(".menu-desplegable");
+
+if(menu.style.display === "block"){
+
+menu.style.display = "none";
+
+}else{
+
+menu.style.display = "block";
+
+}
+
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

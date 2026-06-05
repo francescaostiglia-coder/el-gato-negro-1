@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Comunidad Gato Negro</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="menu-container">
+
+        <div class="menu" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <div class="menu-desplegable">
+
+            <a href="index.html">Inicio</a>
+            <a href="menu.html">Menú</a>
+            <a href="historia.html">Historia</a>
+            <a href="visitanos.html">Visítanos</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="registro.html">Comunidad</a>
+
+        </div>
+
+    </div>
+
+    <img src="img/logo.jpg" alt="Logo">
+
+</header>
+
+<section class="registro-exitoso">
+
+    <div class="card-exito">
+
+        <div class="icono-exito">
+            🐈‍⬛
+        </div>
+
+        <h1>¡Bienvenido a la Comunidad!</h1>
+
+        <p>
+
+            Tu cuenta ha sido creada correctamente.
+
+            Ahora formarás parte de nuestra comunidad y recibirás:
+
+        </p>
+
+        <ul>
+
+            <li>🎁 Promociones exclusivas</li>
+
+            <li>☕ Novedades del café</li>
+
+            <li>🎉 Invitaciones a eventos especiales</li>
+
+        </ul>
+
+        <a href="index.html" class="btn-volver">
+
+            Volver al Inicio
+
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>Café Gato Negro</h3>
+
+    <p>
+        Desde 1927 compartiendo tradición, aromas y sabores.
+    </p>
+
+</footer>
+
+<script>
+
+function toggleMenu(){
+
+    const menu =
+        document.querySelector(".menu-desplegable");
+
+    menu.style.display =
+        menu.style.display === "block"
+        ? "none"
+        : "block";
+
+}
+
+</script>
+
+</body>
+</html>
